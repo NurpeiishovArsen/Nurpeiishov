@@ -1,57 +1,56 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.b1{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Poppins", sans-serif;  
 }
+
 body{
-    height: 100vh;
-    background-image: url(https://i.gifer.com/origin/e4/e43f877023f663c68b0180cf35abc23f_w200.gif);
-    background: linear-gradient(
-        to bottom,
-        /* #000000 50%,
-        #000000 50% */
-        
-    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: seagreen;
+    background-image: url(https://fonerus.ru/_ph/16/2/1002330.gif);
+
 }
-.clock{
-    background: #16191e;
-    height: 320px;
-    width: 320px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
-    box-sizing: content-box;
-    border-radius: 50%;
-    border: 15px solid #000000;
-    box-shadow: 15px 15px 35px rgba(80, 246, 9, 0.858),
-    inset 0 0 30px rgba(76, 243, 10, 0.99);
+ 
+.wrapper{
+    width: 420px;
+    background: rgb(37, 141, 72);
+    color: #03a2f2 ;
+    background-image: url(https://fonerus.ru/_ph/16/2/1002330.gif);
 }
-img{
-    position: relative;
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+   
 }
-.hand{
-    position: absolute;
-    background-color: #00fc08ac;
-    margin: auto;
-    left: 0;
-    right: 0;
-    border-radius: 5px;
-    transform-origin: bottom;
+
+.wrapper .input-box{
+    width: 100%;
+    height: 50%;
+    background: seagreen;
+    background-image: url(https://fonerus.ru/_ph/16/2/1002330.gif);
+    margin: 30px 0;
 }
-.hour{
-    height: 60px;
-    width: 10px;
-    top: 100px;
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border:  2px solid rgba(14, 6, 246, 0.975);
+    border-radius: 40px;
+    font-size: 16px;
+    color:  #08cdf0;
+    padding: 20px 45px 20px 20px;
 }
-.minute{
-    height: 80px;
-    width: 5px;
-    top: 80px;
+
+.input-box input::placeholder{
+   color: #08b5ea;
 }
-.seconds{
-    height: 90px;
-    width: 3px;
-    top: 70px;
-    background-color: #09f424;
-}
+
+ 

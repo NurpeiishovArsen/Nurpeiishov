@@ -1,19 +1,47 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analog Clock</title>
-    <!-- Stylesheet-->
-    <link rel="stylesheet" href="style.css">   
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login</title>
 </head>
 <body>
-    <div class="clock">
-        <div class="hour hand" id="hour"></div>
-        <div class="minute hand" id="minute"></div>
-        <div class="seconds hand" id="seconds"></div>
-        <img src="clock template.svg" alt="clock">
+    
+      <div class="wrapper"> 
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text"placeholder="Username"
+                 required>
+                 <i class='bx bxs-user'></i>
+            </div>
+        <div class="input-box">
+            <input type="password"
+            placeholder="Password"
+             required>
+             <i class='bx bxs-lock-open-alt'></i>
+        </div>
+      
+
+        <div class="remember-forgot">
+            <lebel><input type="checkbox">Remember</lebel>
+            <a href="#">forgot password?</a>
+        </div>
+
+        <button type="submit" class="btn">login</button>
+
+
+    </form>
+    <div class="register - link">
+
+        <p>Don't have an account? <a href="#"></a></p>
+
     </div>
-    <!-- Script -->
-    <script src="script.js"></script>
+
+    </form>
+      </div>
+
 </body>
 </html>
